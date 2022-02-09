@@ -15,6 +15,8 @@ For example : Let the command be:
         day1task is the name of the image which we have to refer when we run the container
   
         . at the end of the docker build command basically informs that the dockerfile should look for the dockerfile in the current directory. 
+  
+  Now your Docker image is ready , Let's run our application. 
 
 
 STEP 2: RUN THE DOCKER IMAGE TO START THE CONTAINER 
