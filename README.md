@@ -31,7 +31,7 @@ STEP 2: RUN THE DOCKER IMAGE TO START THE CONTAINER
   
           80:80 refers to the host port:container port(tcp) .
   
-  Now go and run your application at http://localhost:80 
+          Now go and run your application at http://localhost:80 
   
   
 
