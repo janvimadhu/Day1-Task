@@ -28,6 +28,7 @@ STEP 2: RUN THE DOCKER IMAGE TO START THE CONTAINER
   Example: docker run -d -p 80:80 day1task
   
           Here , -d -p are the options which ensures that the new container is in detached mode and the mapping between the host port and the container port is created.
+  
           80:80 refers to the host port:container port(tcp) .
   
   Now go and run your application at http://localhost:80 
