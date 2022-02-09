@@ -8,7 +8,7 @@ For example : Let the command be:
   
   docker build -t day1task .
   
-  Here, docker build is the basic command to build the docker image 
+        Here, docker build is the basic command to build the docker image 
   
         -t option flag tags our image 
   
