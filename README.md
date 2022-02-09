@@ -9,8 +9,11 @@ For example : Let the command be:
   docker build -t day1task .
   
   Here, docker build is the basic command to build the docker image 
+  
         -t option flag tags our image 
+  
         day1task is the name of the image which we have to refer when we run the container
+  
         . at the end of the docker build command basically informs that the dockerfile should look for the dockerfile in the current directory. 
 
 
