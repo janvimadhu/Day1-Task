@@ -21,6 +21,18 @@ For example : Let the command be:
 
 STEP 2: RUN THE DOCKER IMAGE TO START THE CONTAINER 
   
+  To run the container , we use the docker run command 
+  
+  The syntax be - docker run -options <port-map> <name-of-the-created-image>
+  
+  Example: docker run -d -p 80:80 day1task
+  
+          Here , -d -p are the options which ensures that the new container is in detached mode and the mapping between the host port and the container port is created.
+          80:80 refers to the host port:container port(tcp) .
+  
+  Now go and run your application at http://localhost:80 
+  
+  
 
 OUTPUT:
 
